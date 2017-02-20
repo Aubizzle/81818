@@ -2,6 +2,25 @@
 <html>
 <head>
 <title>Paul and Aubrey's Wedding </title>
+<link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
+<style type="text/css">
+@font-face {
+  font-family: 'Blacksword';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Blacksword'), local('Blacksword-Regular'), url(./_fonts/Blacksword.otf) format('woff2');
+ 
+}
+</style>
+<style type="text/css">
+@font-face {
+  font-family: 'Heart';
+  src: url(./_fonts/HeartOfEverything.ttf);
+ 
+}
+</style>
 <style type="text/css">
 body{
 background-color: #F5D7CD;
@@ -22,6 +41,24 @@ clear:both;
 float:left;
 }
 
+.font-alex{
+font-family: 'Alex Brush', cursive;
+}
+.font-italiano {
+font-family: 'Italianno', cursive;
+}
+.font-lovers{
+font-family: 'Lovers Quarrel', cursive;
+}
+
+.font-blacksword{
+font-family: 'Blacksword';
+}
+
+.font-heart{
+font-family: 'Heart';
+}
+
 .width-25 {
 width:25%;
 }
@@ -31,6 +68,34 @@ width:49%;
 
 .width-50 {
 width:50%;
+}
+
+.width-75 {
+width:75%;
+}
+
+.blue-bg {
+background-color: blue;
+}
+
+.border-tb-1 {
+border-top: solid white 2px;
+border-bottom: solid white 2px;
+}
+
+.padding-tb-5 {
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.padding-tb-30 {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.padding-lr-15 {
+padding-left: 15px;
+padding-right: 15px;
 }
 
 .menu h3 {
@@ -43,7 +108,7 @@ float:left;
 }
 
 .right-col {
-background-color:#2C3A49;
+
 float:right;
 }
 
@@ -65,9 +130,17 @@ text-align: right;
 <body>
 <div class="row">
 	<header id="main-header">
-		<span class="left-col width-25">08.18.2018</span>
-		<h1 class="main-banner width-50 text-center">PAUL & AUBREY WEDDING</h1>
-		<span class="right-col width-25">Dear Paul, please decide upon a venue</span>
+		<div class="left-col width-25 padding-tb-30 text-right">
+		    
+		    <div class="blue-bg width-75 padding-tb-5 padding-lr-15 right-col">
+		        <div class="border-tb-1 text-center padding-tb-5">
+		            <span>08.18.2018</span>
+		        </div>
+
+		    </div>
+		</div>
+		<h1 class="main-banner width-50 text-center font-heart">Paul & Aubrey Wedding</h1>
+		<span class="right-col width-25">Lodi, Ca</span>
 	</header>
 	<br class="clear-fix"/>
 </div>
